@@ -3,11 +3,11 @@
 ## Overview
 
 This project implements a movie recommendation system using machine learning techniques. The system analyzes movie data (titles, genres, descriptions, user ratings, etc.) 
-to provide personalized movie recommendations to users. This version focuses on [**Specify the key algorithm or technique used in V1, e.g., content-based filtering, collaborative filtering using cosine similarity, etc.**].
+to provide personalized movie recommendations to users. This version focuses on content-based filtering, collaborative filtering using cosine similarity and TfidfVectorizer.
 
 ## Data Sources
 
-*   **MovieLens Dataset:**(MovieLens 25M Dataset) Primary source for movie data and user ratings.
+*   **MovieLens Dataset:** Primary source for movie data and user ratings.
 
 ## Technologies Used
 
@@ -27,21 +27,17 @@ The project is contained within the [Movie Rec System V1.ipynb](Movie%20Rec%20Sy
     *   Cleaning and handling missing values.
     *   Data transformation and feature engineering.
 
-2.  **Data Exploration and Analysis:**
-    *   Exploring the distribution of movie genres and user ratings.
-    *   Analyzing relationships between different features.
-
-3.  **Recommendation Algorithm Implementation:**
+2.  **Recommendation Algorithm Implementation:**
     *   Implementing the TfidfVectorizer for the development of the recommendation system.
     *   Calculating similarity scores between movies or users via cosine_similarity. 
 
-4.  **Recommendation Generation:**
+3.  **Recommendation Generation:**
     *   Generating movie recommendations for a given user or movie.
 
-5.  **Evaluation:**
+4.  **Evaluation:**
     *   Evaluating the performance by running several test simulations and making adjustments based on the results.
 
-6.  **Results and Discussion:**
+5.  **Results and Discussion:**
     *   Presenting the results of the recommendation system.
     *   Discussing the strengths and limitations of the approach.
 
@@ -73,6 +69,7 @@ The project is contained within the [Movie Rec System V1.ipynb](Movie%20Rec%20Sy
 
 *   Incorporate more advanced recommendation algorithms (e.g., matrix factorization, deep learning).
 *   Implement a user interface for the recommendation system.
+*   Importing in random library to diversify the movie recommendation results.
 
 ## Author
 
